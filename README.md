@@ -8,15 +8,23 @@ It provides code for doing computations with diffraction data and atomic coordin
 It has C++ and Python ports.
 It is available in Anaconda in the conda-forge channel as cctbx-base for python3.8 through 3.11 for Windows, MacOS, and Linux.
 
-My installation protocol is as follows. I assume that Anaconda has already been installed. We also create the Jupyter notebook kernel.
+### Blaine's cctbx install protocol
+
+I assume that Anaconda has already been installed. We also create the Jupyter notebook kernel while we are at it. Execute one line at a time: Wait for the execuation to finish before executing the next line.
 
 ```bash
 conda create --name cctbx39 python=3.9
 conda activate cctbx39
 conda install -c conda-forge cctbx-base -y
 conda install ipykernel -y
-python -m ipykernel -n 
+python -m ipykernel install --user --name cctbx39 --display-name "cctbx python3.9"
 ```
+
+The second to last command triggers the installation of Jupyter in the cctbx39 env.
+The last command creates and installs the Jupyter kernel in `~/Library/Jupyter/kernels/cctbx39` on the Mac.
+Select **cctbx python3.9** from the list of kernels when opening a new notebook in Jupyter.
+
+Replace the *3.9* or *39* above with whatever version of Python you want to use (between 3.8 and 3.11).
 
 ## yasnippets
 
