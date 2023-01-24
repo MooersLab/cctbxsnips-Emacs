@@ -23,8 +23,14 @@ It is available in MELPA.
 
 ## Installation
 
+1. Install the snippets
+
 ```bash
 cd ~/.emacs.d/snippets/python-mode
-git clone http
-
+git clone https://github.com/MooersLab/cctbxsnips-Emacs.git
+cd cctbxsnips-Emacs
+mv * ../.
+rmdir cctbxsnips-Emacs
 ``
+
+2. **Optional** If you want to use these snippets in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
