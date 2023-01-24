@@ -53,4 +53,4 @@ cd ../..
 rm -rf cctbxsnips-Emacs
 ```
 
-2. **Optional** If you want to use these snippets in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
+2. **Optional** If you want to use these snippets from Emacs to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
