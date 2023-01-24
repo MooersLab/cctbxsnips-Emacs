@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Return the resolution range in d* in a specified Miller array.
+# group: MillerArrays
+# key: millerArraydstar
+# --
+miller_arrays[${1:0}].min_max_d_star_sq()
+$0
+$0

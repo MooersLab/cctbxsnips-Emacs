@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Print the available methods for the Miller class.
+# group: MillerArrays
+# key: millerArrayMethods
+# --
+dir(miller_arrays[${1:0}])
+$0
+$0

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Fetch pdb file from RCSB in PDB format.
+# group: IOTBX_pdb
+# key: fetchPDB
+# --
+from iotbx.pdb.fetch import get_pdb
+import sys
+get_pdb(id="${1:3nd4}",data_type="pdb", mirror="rcsb", format="pdb", log=sys.stdout)
+$0
+$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Enter this snippet on the command line in an empty directory.
+# group: conda
+# key: testCCTBX
+# --
+libtbx.run_tests_parallel module=libtbx module=cctbx nproc=${1:6}
+$0
+$0
