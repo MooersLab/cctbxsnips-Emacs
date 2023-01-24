@@ -57,4 +57,6 @@ rm -rf cctbxsnips-Emacs
 
 ## Related repositories
 
-
+- [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the jupyterlab-snippets extension or the jupyterlab-snippets-mutlimenus extension.
+- [Jupyterlab cctbx plus snippets](https://github.com/MooersLab/jupyterlabcctbxsnipsplus) The variant of the jupyterlabcctbxsnips library with comments to guide editing of the snippets.
+- [Colab cctbx snippets](https://github.com/MooersLab/colabcctbxsnips) Colab snippets.
