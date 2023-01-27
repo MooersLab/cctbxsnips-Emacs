@@ -79,6 +79,13 @@ Note that I have set the default programming language scope to Python so that co
 (setq atomic-chrome-buffer-open-style 'split)
 ```
 
+## Example of use
+
+Note that the user experience will vary widely with regards to autocompletion and the use of the yasnippets package depending on how Emacs has been configured.
+I use Gnu Emacs configured from scratch.
+
+
+
 ## Related repositories
 
 - [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the jupyterlab-snippets extension or the jupyterlab-snippets-mutlimenus extension.
