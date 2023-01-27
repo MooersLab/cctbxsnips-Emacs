@@ -55,6 +55,30 @@ rm -rf cctbxsnips-Emacs
 
 2. **Optional** If you want to use these snippets from Emacs to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chrome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
 
+Below is the related configuration for my Emacs initialization file. 
+Note that I have set the default programming language scope to Python so that code cells in Jupyter notebooks open in Emacs as being in the Python-mode went sent to Emacs from the web browser that is running the Jupyter session.
+
+```elisp
+;; atomic-chrome, used to interact with GhostText extension for Google Chrome.
+(use-package atomic-chrome
+      :ensure t)
+;; uncomment the line below to start the server on start-up of Emacs.      
+;; (atomic-chrome-start-server)
+(setq atomic-chrome-default-major-mode 'python-mode)
+(setq atomic-chrome-extension-type-list '(ghost-text))
+;;(atomic-chrome-start-httpd)
+(setq atomic-chrome-server-ghost-text-port 4001)
+(setq atomic-chrome-url-major-mode-alist
+      '(("github\\.com" . gfm-mode)
+        ("overleaf.com" . latex-mode)
+        ("750words.com" . latex-mode)))
+; Select the style of opening the editing buffer by atomic-chrome-buffer-open-style.
+; full: Open in the selected window.
+; split: Open in the new window by splitting the selected window (default).
+; frame: Create a new frame and window in it. Must be using some windowing pacakge.
+(setq atomic-chrome-buffer-open-style 'split)
+```
+
 ## Related repositories
 
 - [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the jupyterlab-snippets extension or the jupyterlab-snippets-mutlimenus extension.
