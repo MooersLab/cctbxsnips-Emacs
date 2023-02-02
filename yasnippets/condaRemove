@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: The conda commands to remove cctbx37 env.
-# group: conda
-# key: condaRemove
-# --
-conda remove --name ${1:cctbx37}

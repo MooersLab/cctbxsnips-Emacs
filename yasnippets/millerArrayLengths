@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Print length of miller arrays (i.e., the number of datasets in a mtz file).
-# group: MillerArrays
-# key: millerArrayLengths
-# --
-len(miller_arrays)
-$0
-$0

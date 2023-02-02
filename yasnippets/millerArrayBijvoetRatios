@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Print the Bijvoet ratios in a specified Miller array.  May have to average by bin first.
-# group: MillerArrays
-# key: millerArrayBijvoetRatios
-# --
-[print(i) for i in miller_arrays[${1:0}].bijvoet_ratios()]
-$0

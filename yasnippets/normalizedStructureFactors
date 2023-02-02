@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Calculate quasi-normalized structure factor.
-# group: MillerArrays
-# key: normalizedStructureFactors
-# --
-all_e_values = miller_array.quasi_normalize_structure_factors().sort(by_value="data")
-$0
-$0

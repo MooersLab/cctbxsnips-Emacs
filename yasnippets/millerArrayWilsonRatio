@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Show wilson ratio of miller array for a specified Miller array. 
-# group: MillerArrays
-# key: millerArrayWilsonRatio
-# --
-miller_arrays[${1:0}].wilson_ratio()
-$0
-$0

@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Return the `measurability` of the anomalous signal in a specified Miller array.
-# group: MillerArrays
-# key: millerArrayMeasurability
-# --
-miller_arrays[${1:0}].measurability()
-$0
-$0
