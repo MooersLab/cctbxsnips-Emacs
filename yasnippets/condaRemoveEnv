@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Remove a specified env. The bang (!) enables running this command in a Juptyer Notebook. Delete the bang to run the command in the terminal.
+# group: conda
+# key: condaRemoveEnv
+# --
+!conda env remove --name cctbx37

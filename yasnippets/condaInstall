@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: The conda commands to install cctbx with the jupyter notebook, pandas, and xarray.
+# group: conda
+# key: condaInstall
+# --
+conda create --name ${1:cctbx37} python=${2:3.7}
+conda activate ${1:cctbx37}
+conda install -c conda-forge cctbx-base jupyter pandas xarray
+$0

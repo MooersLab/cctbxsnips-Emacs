@@ -18,4 +18,3 @@ mtzdata["absL"] = mtzdata.apply(lambda row: abs(row["L"]), axis=1)
 FovSigFabsL = mtzdata.groupby([mtzdata.absL]).FovSigF.mean()
 FovSigFabsL.to_csv("${3:test2}.csv")
 $0
-$0

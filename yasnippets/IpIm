@@ -46,4 +46,3 @@ ax.grid(False)
 # >>> change name of the figure file
 plt.savefig("${1:3hz7}IpIm.pdf",bbox_inches="tight")
 $0
-$0

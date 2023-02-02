@@ -6,4 +6,3 @@
 # --
 miller_arrays[${1:0}].anomalous_signal()
 $0
-$0

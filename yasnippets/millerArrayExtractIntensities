@@ -8,4 +8,3 @@ Iobs = miller_arrays[${1:0}]
 iobsdata = Iobs.data()
 list(iobsdata[${1:100:110}])
 $0
-$0

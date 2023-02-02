@@ -11,4 +11,3 @@ atoms = pdb_inp.atoms()
 bfactors = atoms.extract_b()
 bfactors.format_mean("%6.2f Ang.^2")
 $0
-$0

@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Print the miller keys() of a miller dictionary.
+# name: Return CC one-half for a given Miller array. 
 # group: MillerArrays
-# key: millerArrayDictionaryKeys
+# key: millerArrayCConeHalf
 # --
-miller_arrays_dict.keys()
+miller_arrays[${1:0}].cc_one_half()
 $0

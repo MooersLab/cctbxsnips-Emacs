@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
-# name: Fetch X-ray data from RCSB in mmCIF format.
-# group: IOTBX_xray_cif
-# key: fetchXrayCif
+# name: Fetch  atomic coordinates from RCSB in mmCIF format.
+# group: IOTBX_atomic_cif
+# key: fetchAtomicCif
 # --
 from iotbx.pdb.fetch import get_pdb
 import sys

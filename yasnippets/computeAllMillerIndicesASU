@@ -23,4 +23,3 @@ for hkl in ms.indices():
 msu = ms.map_to_asu()
 [print(hkl2) for hkl2 in msu.indices()]
 $0
-$0

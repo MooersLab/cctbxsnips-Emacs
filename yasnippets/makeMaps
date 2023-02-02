@@ -17,4 +17,3 @@ create_map_from_pdb_and_mtz(
           remove_unknown_scatterering_type=True,
           assume_pdb_data=False)
 $0
-$0

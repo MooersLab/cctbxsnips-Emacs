@@ -18,4 +18,3 @@ mtz_dataset.add_miller_array(f_obs, column_root_label="F")
 mtz_dataset.add_miller_array(r_free_flags,column_root_label="${2:FreeR_flag}")
 mtz_dataset.mtz_object().write("${3:loxodata.mtz}")
 $0
-$0

@@ -11,4 +11,3 @@ for miller_array in miller_arrays:
     miller_array_truncated = miller_array.resolution_filter(d_min=${2:2}, d_max=${3:5})
 print(miller_array_truncated)
 $0
-$0

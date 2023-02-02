@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Print all of the miller indices for a given Miller array.
+# group: MillerArrays
+# key: millerArrayHKLs
+# --
+[print(hkl) for hkl in miller_arrays[${1:0}].indices()]
+$0

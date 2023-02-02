@@ -22,4 +22,3 @@ for miller_array in miller_arrays:
 mtz_object = mtz_dataset.mtz_object() 
 mtz_object.show_summary()
 $0
-$0

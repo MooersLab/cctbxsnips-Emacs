@@ -17,4 +17,3 @@ ms = miller.build_set(
 
 [print(hkl) for hkl in ms.indices()]
 $0
-$0
