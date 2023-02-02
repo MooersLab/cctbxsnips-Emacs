@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Read in the mtz file and print its column labels as a sanity check.
+# group: MillerArrays
+# key: millerArrayReadMtz
+# --
+mtz_filename2 = "${1:3hz7intensities}.mtz"
+mtz_file2 = mtz.object(mtz_filename2)
+mtz_file2.column_labels()
+$0

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Print the miller keys() of a miller dictionary.
+# group: MillerArrays
+# key: millerArrayDictionaryKeys
+# --
+miller_arrays_dict.keys()
+$0

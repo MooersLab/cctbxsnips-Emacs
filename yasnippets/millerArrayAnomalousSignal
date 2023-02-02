@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Return the anomalous signal in a specified Miller array.
+# group: MillerArrays
+# key: millerArrayAnomalousSignal
+# --
+miller_arrays[${1:0}].anomalous_signal()
+$0

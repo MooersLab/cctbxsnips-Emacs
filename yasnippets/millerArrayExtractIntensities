@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Extract just the intensities for a give Miller array and print ten rows of them.
+# group: MillerArrays
+# key: millerArrayExtractIntensities
+# --
+Iobs = miller_arrays[${1:0}]
+iobsdata = Iobs.data()
+list(iobsdata[${1:100:110}])
+$0
