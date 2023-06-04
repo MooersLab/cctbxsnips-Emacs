@@ -28,9 +28,9 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 
 ## yasnippets
 
-This a popular snippet manager for Emacs.
-There other snippets managers for Emacs.
-yasnippets is not built into Emacs and must be installed separately.
+The yasnippets package is a very popular snippet manager for Emacs.
+There other snippets managers for Emacs, but yasnippets currently dominates the field.
+The yasnippets package is not built into Emacs and must be installed separately.
 It is available in MELPA.
 
 
