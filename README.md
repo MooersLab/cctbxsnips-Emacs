@@ -1,5 +1,9 @@
 # cctbxsnips for the yasnippets package in Emacs
 
+![Version](https://img.shields.io/static/v1?label=cctbxsnips-Emacs&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 ## CCTBX
 
 [CCTBX](https://github.com/cctbx/cctbx_project) is the Computational Crystallography Toolbox. 
@@ -28,7 +32,7 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 
 ## yasnippets
 
-The yasnippets package is a very popular snippet manager for Emacs.
+The yasnippets package is a top-rated snippet manager for Emacs.
 There other snippets managers for Emacs, but yasnippets currently dominates the field.
 The yasnippets package is not built into Emacs and must be installed separately.
 It is available in MELPA.
@@ -36,9 +40,9 @@ It is available in MELPA.
 
 ## The problems that this repo addresses
 
-1. **Facilitation of code reuse**. The use of code snippets can save time by reusing existing code. The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered. Thus, tab stops can reduce subsequent debugging.
+1. **Facilitation of code reuse**. Code snippets can save time by reusing existing code. The presence of tab stops in code snippets can help ensure that all parameters that need customization to a new problem are considered. Thus, tab stops can reduce subsequent debugging.
 
-2. **Use of Emacs to edit Jupyter and Colab code and markdown cells** The existnig snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops: These are standard features of code snippet systems in most text editors. We can overcome these limitations by sending the active code cell to Emacs via the GhostText extension for the browser and the atomic-chrome package for Emacs.
+2. **Use Emacs to edit Jupyter and Colab code and markdown cells** The existing snippet formats for Jupyter and Colab notebooks do not support tab triggers and tab stops, which are standard features of code snippet systems in most text editors. We can overcome these limitations by sending the active code cell to Emacs via the GhostText extension for the browser and the atomic-chrome package for Emacs.
 
 ## Installation
 
@@ -56,7 +60,7 @@ rm -rf cctbxsnips-Emacs
 2. **Optional** If you want to use these snippets from Emacs to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chrome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
 
 Below is the related configuration for my Emacs initialization file. 
-Note that I have set the default programming language scope to Python so that code cells in Jupyter notebooks open in Emacs as being in the Python-mode went sent to Emacs from the web browser that is running the Jupyter session.
+Note that I have set the default programming language scope to Python so that code cells in Jupyter notebooks open in Emacs as being in the Python-mode were sent to Emacs from the web browser running the Jupyter session.
 
 ```elisp
 ;; atomic-chrome, used to interact with GhostText extension for Google Chrome.
@@ -75,7 +79,7 @@ Note that I have set the default programming language scope to Python so that co
 ; Select the style of opening the editing buffer by atomic-chrome-buffer-open-style.
 ; full: Open in the selected window.
 ; split: Open in the new window by splitting the selected window (default).
-; frame: Create a new frame and window in it. Must be using some windowing pacakge.
+; frame: Create a new frame and window in it. You must be using some windowing package.
 (setq atomic-chrome-buffer-open-style 'split)
 ```
 
@@ -98,3 +102,17 @@ I use Gnu Emacs configured from scratch.
 - [Jupyterlab cctbx snippets](https://github.com/MooersLab/jupyterlabcctbxsnips) CCTBX snippets for JupyterLab with the jupyterlab-snippets extension or the jupyterlab-snippets-mutlimenus extension.
 - [Jupyterlab cctbx plus snippets](https://github.com/MooersLab/jupyterlabcctbxsnipsplus) The variant of the jupyterlabcctbxsnips library with comments to guide editing of the snippets.
 - [Colab cctbx snippets](https://github.com/MooersLab/colabcctbxsnips) Colab snippets.
+
+## Update History
+
+|Version      | Changes                                         | Date            |
+|:-----------:|:-----------------------------------------------:|:---------------:|
+| Version 0.2 |  Fixed typos in README.md                       | 2024 April 10    |
+
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH P20GM103640 and P30GM145423 (PI: A. West)
