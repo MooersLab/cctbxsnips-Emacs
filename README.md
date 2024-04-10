@@ -10,7 +10,7 @@
 Its development is based at Lawrence-Berkeley National Laboratory.
 It provides code for computations with diffraction data and atomic coordinates of proteins and small molecules.
 It has C++ and Python ports.
-It is available in Anaconda in the conda-forge channel as cctbx-base for python3.8 through 3.11 for Windows, macOS, and Linux.
+It is available in Anaconda in the conda-forge channel as *cctbx-base* for python3.8 through 3.11 for Windows, macOS, and Linux.
 
 ### Blaine's cctbx install protocol
 
@@ -33,7 +33,7 @@ Replace the *3.9* or *39* above with whatever version of Python you want to use 
 ## yasnippets
 
 The yasnippets package is a top-rated snippet manager for Emacs.
-There other snippets managers for Emacs, but yasnippets currently dominates the field.
+There are other snippets managers for Emacs, but yasnippets is very popular.
 The yasnippets package is not built into Emacs and must be installed separately.
 It is available in MELPA.
 
@@ -60,7 +60,7 @@ rm -rf cctbxsnips-Emacs
 2. **Optional** If you want to use these snippets from Emacs to edit live cells in Jupyter or Colab notebooks, install [GhostText](https://ghosttext.fregante.com/) in your browser and atomic-chrome in [Emacs](https://github.com/alpha22jp/atomic-chrome).
 
 Below is the related configuration for my Emacs initialization file. 
-Note that I have set the default programming language scope to Python so that code cells in Jupyter notebooks open in Emacs as being in the Python-mode were sent to Emacs from the web browser running the Jupyter session.
+Note that I have set the default programming language scope to Python so that code cells in Jupyter notebooks open in Emacs as being in the *python-mode* were sent to Emacs from the web browser running the Jupyter session.
 
 ```elisp
 ;; atomic-chrome, used to interact with GhostText extension for Google Chrome.
